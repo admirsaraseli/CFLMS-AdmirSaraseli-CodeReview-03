@@ -190,7 +190,7 @@ footer p {
   background-position: center; }
 
 .team {
-  width: 32%;
+  width: 33%;
   text-align: center; }
 
 .team img {
@@ -265,6 +265,22 @@ footer p {
 
   .box-2 small {
     font-size: 4vw; }
+
+  .best-team {
+    display: flex;
+    flex-direction: column; }
+
+  .team {
+    width: 100%; }
+
+  .team button {
+    font-size: 4vw; }
+
+  .nonvisible {
+    font-size: 6vw; }
+
+  .team figcaption {
+    font-size: 6vw; }
 
   footer .navbar a {
     font-size: 6vw; }
