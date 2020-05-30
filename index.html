@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Car Insurances - Admir Saraseli</title>
+		<meta charset="UTF-8">
+	  	<meta name="description" content="Car insurances for code review">
+	  	<meta name="keywords" content="HTML, CSS, Javasrcipt">
+	  	<meta name="author" content="Admir Saraseli">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  	<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+	<body>
+		<header>
+			<div class="main-header">
+				<div>
+					<img class="img-1" src="img/logo.png" alt="Insurance" />
+				</div>
+				<div>
+					<a href="https://www.codefactory.wien" target="_blank">
+						<img class="img-2" src="img/banner.png" alt="Code Factory" />
+					</a>
+				</div>
+			</div>
+			<nav class="navbar">
+				<div>
+					<ul>
+						<li><a href="index.html" target="_self">Home</a></li>
+						<li><a href="team.html">Team</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<div class="showcase"> <!-- showcase -->
+			<p id="p-1">Car insurance</p>
+			<div class="infos">
+				<p id="p-2">Great coverage begins <br> with a custom quote</p>
+				<form name="data">
+					<div class="container">
+						<div>
+							<label for="name">Your Name:</label><br>
+							<input type="text" name="fullName" placeholder="Your full name"><br><br>
+							<label for="countries">Country:</label><br>
+							<select name="country">
+							  <option value="Austria">Austria</option>
+							  <option value="Hungary">Hungary</option>
+							  <option value="Greece">Greece</option>
+							</select> 
+						</div>
+						<div>
+							<label for="age">Age:</label><br>
+							<input type="number" name="age" required placeholder="Your age"><br><br>
+							<label for="horsepower">Horsepower of your car:</label><br>
+							<input type="number" name="horsepower" required placeholder="The horse power">
+						</div>
+					</div>
+					<button id="calculation">Calculate</button>
+				</form>
+				<p id="result">Printed calculation goes here</p>
+			</div>
+		</div>
+		<!-- end showcase -->
+		<div class="box-1">
+			<div id="empty">&nbsp;</div>
+			<p id="p-4">Un-complicating car coverage</p>
+			<p id="p-5">Understaing your coverage options shoudn't be so hard. <br> We'll guide you throught available
+			coverage types, <br> starting with who and what is covered.</p>
+		</div>
+		<!-- box-2 -->
+		<div class="box-2">
+			<div>
+				<p>What comes standard</p>
+				<small>The coverage you need</small>
+				<ul class="list">
+					<li>Bodily Injury Liability</li>
+					<li>Property Damage</li>
+					<li>Medical Payments</li>
+				</ul>
+				<hr>
+				<span><b>Benefits</b></span><br>
+				<small class="small-gray">12-months rate guarantee | 24/7 customer <br> service | Lifetime Repair Guarantee</small>
+			</div>
+			<div>
+				<p>Add-on protection & coverage</p>
+				<small>For more peace of mind</small>
+				<ul class="list">
+					<li>Bodily Injury Liability</li>
+					<li>Property Damage</li>
+					<li>Medical Payments</li>
+				</ul>
+				<hr>
+				<span><b>Earned Benefits</b></span><br>
+				<small class="small-gray">Accident Forgiveness' | New Car <br> Replacement&trade;</small>
+			</div>
+		</div>
+		<!-- end box-2 -->
+		<footer>
+			<nav class="navbar">
+				<div>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="team.html">Team</a></li>
+					</ul>
+				</div>
+			</nav>
+			<img  src="img/logo-inv.png" alt="Insurance" />
+			<p>Admir Saraseli - CodeFactory 2020</p>
+		</footer>
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>
